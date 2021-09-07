@@ -18,10 +18,21 @@ ___
 *  Python basic
 *  JavaScript, TypeScript in process
 *  Editors: Brackets, VSCode, PyCharm
+  
+## Code example
+
+```
+function sDigit(n: number) {
+  if (n < 10) return n;
+  else {
+    return n % 10 + sDigit(Math.floor(n / 10));
+  }
+}
+```
 
 ## Experience
 
-**2019 – now Programming Studying**
+**2019 – now** Programming Studying
 
 * Rolling Scopes School: JavaScript/Front-end course *in process*
 * freeCodeCamp: 
@@ -35,14 +46,16 @@ ___
   - Build Responsive Real-World Websites with HTML and CSS
   - The Complete JavaScript Course 2021: From Zero to Expert
 
-**Aug 2016 – Jan 2019 Yoga Studio Owner, Gdańsk, Poland**
+**Aug 2016 – Jan 2019** Yoga Studio Owner, Gdańsk, Poland
 
-**Sep 2010 – Feb 2016 Legal adviser, Civil Law, Representative of a court-appointed receiver in legal entities’ bankruptcy cases, Novosibirsk, Russia**
+**Sep 2010 – Feb 2016** Legal adviser, Civil Law, Representative of a court-appointed receiver in legal entities’ bankruptcy cases, Novosibirsk, Russia
 
 ## Education
+
 M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia
 
 ## Languages
+
 * Russian
 * Polish(B1)
-* English(B1)
+* English(B1) - regular weekly practice with native speaker
