@@ -4,13 +4,13 @@
 
 ##### +48571434284
 
-##### ylepner@gmail.com
+##### <ylepner@gmail.com>
 
-##### [My GitHub](https://github.com/ylepner)
+##### [GitHub](https://github.com/ylepner)
 
 ___
 
-*Self-taught Front-end developer with the main goal of starting my careera nd get a junior position job next year. My career-switch experience has taught me realize how to learn and apply new paradigms quickly and efficiently. It has also allowed me to develop a flexible approach to work and life.*
+*Self-taught Front-end developer with the main goal of starting my career and get a junior position job next year. My career-switch experience has taught me realize how to learn and apply new paradigms quickly and efficiently. It has also allowed me to develop a flexible approach to work and life.*
 
 ## Technical Skills
 
@@ -25,10 +25,10 @@ ___
 **2019 – now** Programming Studying
 
 * Rolling Scopes School: JavaScript/Front-end course *in process*
-* freeCodeCamp:
+* FreeCodeCamp:
   - Responsive Web Design Certification (300 hours)
   - JavaScript Algorithm and Data Structures Certification (300 hours)
-* online lectures of Moscow Institute of Physics and Technology:
+* Online lectures of Moscow Institute of Physics and Technology:
   - Introduction to programming
   - Algorithms and data structures
   - Python Programming Practice
