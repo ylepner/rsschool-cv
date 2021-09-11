@@ -1,41 +1,31 @@
 # Julia Lepner
 
-##### Gdańsk, Poland 
+##### Gdańsk, Poland
 
 ##### +48571434284
 
-##### ylepner@gmail.com 
-##### https://github.com/ylepner
+##### ylepner@gmail.com
+
+##### [My GitHub](https://github.com/ylepner)
 
 ___
 
-*Self-taught Front-end developer with the main goal to start my career and get the Junior-position job next year. The experience of career transition has made me realize the importance of being able to learn and apply new technologies and paradigms quickly and efficiently and allowed to develop a flexible approach to work and life.*
+*Self-taught Front-end developer with the main goal of starting my careera nd get a junior position job next year. My career-switch experience has taught me realize how to learn and apply new paradigms quickly and efficiently. It has also allowed me to develop a flexible approach to work and life.*
 
-## Technical Skills 
+## Technical Skills
 
 * Git
-*  HTML, CSS
-*  Python basic
-*  JavaScript, TypeScript in process
-*  Editors: Brackets, VSCode, PyCharm
-  
-## Code example
-
-```
-function sDigit(n: number) {
-  if (n < 10) return n;
-  else {
-    return n % 10 + sDigit(Math.floor(n / 10));
-  }
-}
-```
+* HTML, CSS
+* Python basic
+* JavaScript, TypeScript in process
+* Editors: Brackets, VSCode, PyCharm
 
 ## Experience
 
 **2019 – now** Programming Studying
 
 * Rolling Scopes School: JavaScript/Front-end course *in process*
-* freeCodeCamp: 
+* freeCodeCamp:
   - Responsive Web Design Certification (300 hours)
   - JavaScript Algorithm and Data Structures Certification (300 hours)
 * online lectures of Moscow Institute of Physics and Technology:
@@ -50,6 +40,17 @@ function sDigit(n: number) {
 
 **Sep 2010 – Feb 2016** Legal adviser, Civil Law, Representative of a court-appointed receiver in legal entities’ bankruptcy cases, Novosibirsk, Russia
 
+## Code example
+
+``` typescript
+function sDigit(n: number) {
+  if (n < 10) return n;
+  else {
+    return n % 10 + sDigit(Math.floor(n / 10));
+  }
+}
+```
+
 ## Education
 
 M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia
@@ -58,4 +59,4 @@ M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia
 
 * Russian
 * Polish(B1)
-* English(B1) - regular weekly practice with native speaker
+* English(B1) - regular weekly practice with the native speaker
