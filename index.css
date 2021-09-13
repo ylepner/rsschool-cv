@@ -10,10 +10,31 @@ body {
   text-align: center;
   color: #333;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+.info-box-big {
+  flex-grow: 1;
+}
+
+.main-container {
+  width: 700px;
+}
+
+/* Лучше не использовать селекторы по тегам или использовать их как можно реже.проблему отлично решает использование селектора по классу. 
+Добавив нужный класс к элементу разметки, мы будем уверены, что стили применятся именно к этому элементу и ни к какому больше. */
+
+/* Вложенные(контекстные теги)
+.post .title {…} /* теги с классом title внутри тегов с классом post */ */
+
 h1 {
-  font-size: 4rem;
   margin-bottom: 0;
 }
 
@@ -52,22 +73,14 @@ a:visited {
 img {
   display: inline-block;
   width: 200px;
-  border-radius: 80%;
+  border-radius: 10px;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-/* #img-div {
-  background: white;
-  padding: 10px;
-  margin: 0;
-} */
 
-
-#headline {
-  margin: 50px 0;
-  text-align: center;
-}
 
 ul {
   max-width: 550px;
@@ -80,9 +93,23 @@ li {
   margin: 16px 0;
 }
 
-blockquote {
-  font-style: italic;
-  max-width: 545px;
-  margin: 0 auto 50px auto;
-  text-align: left;
+
+
+header {
+  width: 100%;
+  /* background-color: #95bdc9; */
+  /* border: 5px solid #2f4572; */
 }
+
+em {
+  font-size: 14px;
+  line-height: 21px;
+  border-top: #333;
+  border-bottom: #333;
+}
+
+.text-info {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
