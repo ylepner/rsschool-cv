@@ -16,9 +16,10 @@
   <meta charset="UTF-8">
   <meta name="keywords" content="cv, js, rsschool">
   <meta name="description" content="task 1 - CV">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="index.css">
-  <title>Julia Lepner</title>
+  <title>CV Julia Lepner</title>
 </head>
 
 <!-- header Вводная часть страницы, «шапка», вводная часть, в которой могут содержаться заголовки, оглавление и т.д. -->
@@ -34,7 +35,32 @@
   <header>
     <!--   nav Для создания логического раздела с основной навигацией. Обычно в <nav> включают ссылки на другие страницы или 
       навигацию по текущей странице.  -->
-    <nav>To home page</nav>
+    <ul class="menu-nav">
+      <li>
+        <a href="#skills">Technical Skills</a>
+      </li>
+      <li>
+        <a href="#code">Code example</a>
+      </li>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#languages">Languages</a>
+      </li>
+      <li>
+        <a href="#projects">My projects</a>
+      </li>
+      <li>
+        <a href="#video">Self-introduction</a>
+      </li>
+
+    </ul>
+
+    <!-- <nav>To home page</nav> -->
   </header>
   <div class="main-container">
     <!--   article цельный, законченный и самостоятельный фрагмент информации. В отличие от <section>, 
@@ -45,7 +71,7 @@
     <!-- aside включает в себя дополнительное содержание, не связанное напрямую с основным. Такие блоки ещё часто называют «сайдбарами» 
     или боковыми панелями. -->
 
-    <aside>Здесь могла быть ваша реклама</aside>
+    <!-- <aside>Здесь могла быть ваша реклама</aside> -->
 
     <!-- main выделяет основное содержание страницы, которое не повторяется на других страницах. Спецификация не допускает 
     использование на одной странице более одного тега <main>, если у них нет специального атрибута hidden. Атрибут hidden 
@@ -65,25 +91,24 @@
         </div>
         <div class="info-box-big">
           <h1>Julia Lepner</h1>
-          <p>Javascript / Frontend Student</p>
+          <h3>Javascript / Frontend Student</h3>
           <p><a href="https://goo.gl/maps/D4TUmr1E2uVgsnAv9">Gdańsk, Poland</a></p>
           <p><a href="mailto: ylepner@gmail.com">Email</a></p>
           <p><a href="https://github.com/ylepner">GitHub</a></p>
-          <p>Tel. +48571434284</p>
         </div>
       </section>
 
       <div class="text-info">
-        <p><em>Self-taught Front-end developer with the main goal of starting my career
-            and get a junior position job next year. My career-switch experience
-            has taught me realize how to learn and apply new paradigms quickly and
-            efficiently. It has also allowed me to develop a flexible approach
-            to work and life.</em></p>
+        <p>Self-taught Front-end developer with the main goal of starting my career
+          and get a junior position job next year. My career-switch experience
+          has taught me realize how to learn and apply new paradigms quickly and
+          efficiently. It has also allowed me to develop a flexible approach
+          to work and life.</p>
       </div>
 
-      <section id="skills">
-        <h3 id="Technical Skills">Technical Skills</h3>
-        <ul>
+      <section>
+        <h3 id="Technical Skills"><a id="skills"></a>Technical Skills</h3>
+        <ul class="text-list">
           <li>Git</li>
           <li>HTML, CSS</li>
           <li>Python basic</li>
@@ -97,14 +122,21 @@
         <img id="code_image" src="" alt="My code" />
       </section>
 
-      <section id="experience">
+      <section id="projects"><a id="projects"></a>
+        <h3>My projects</h3>
+        <ul class="text-list">
+          <li>NASA</li>
+        </ul>
+      </section>
+
+      <section id="experience"><a id="experience"></a>
         <h3>Experience</h3>
-        <ul>
+        <ul class="text-list">
           <p><strong>2019 – now</strong> Programming Studying</p>
 
-          <li id="highlight">Rolling Scopes School: JavaScript/Front-end course <em>in process;</em></li>
+          <!--  <li id="highlight">Rolling Scopes School: JavaScript/Front-end course <em>in process;</em></li>
           <p></p>
-
+ -->
           <dl>
             <li>
               <dt>FreeCodeCamp:</dt>
@@ -134,26 +166,28 @@
         </ul>
       </section>
 
-      <section id="education">
+      <section id="education"><a id="education"></a>
         <h3>Education</h3>
         <p>M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia</p>
       </section>
 
-      <section id="languages">
+      <section id="languages"><a id="languages"></a>
         <h3>Languages</h3>
-        <ul>
+        <ul class="text-list">
           <li>Russian</li>
           <li>Polish(B1)</li>
           <li>English(B1) - regular weekly practice with native speaker</li>
         </ul>
       </section>
 
-      <section id="projects">
-        <h3>My projects</h3>
-        <ul>
-          <li>NASA</li>
-        </ul>
+      <section id="video"><a id="video"></a>
+        <h3>Self-introduction</h3>
+        <video id="video" width="320" height="240" controls>
+          <source src="" type="">
+        </video>
       </section>
+
+
 
     </main>
 
