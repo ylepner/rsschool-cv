@@ -134,8 +134,8 @@ header {
   font-style: italic;
   font-size: 16px;
   line-height: 21px;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid /* #333 */ #beb2b3;
+  border-bottom: 1px solid /* #333 */ #beb2b3;
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
@@ -144,7 +144,8 @@ header {
 
 footer {
   width: 100%;
-  /* background-color: #beb2b3; */
+  background-color: #beb2b3;
+  display: inline-block;
 }
 
 .link-about {
