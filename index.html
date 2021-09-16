@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- head предназначен для хранения служебной информации о странице.  заголовок, ключевые слова, описание страницы 
-  и другие служебные данные. Также внутри него подключаются внешние ресурсы, например, стили. Содержимое этого тега не
-   отображается на странице напрямую.-->
-
 <head>
-
-  <!-- meta можно сообщать браузеру, поисковому роботу или другому устройству различную служебную информацию (или метаинформацию) 
-  о вашем сайте: кодировку текста, описание контента и так далее. Некоторые из атрибутов: charset, content, http-equiv, name и scheme.
-  С помощью атрибута charset указывается кодировка текста HTML-страницы, чтобы не было "иероглифов"
-  <meta>, <link>, <title> и другие теги, включаемые в <head>, имеют особый тип содержимого — метасодержимое. Они не отображаются на 
-  странице напрямую, а служат для хранения информации о документе и для взаимосвязи документа с другими документами и системами. -->
 
   <meta charset="UTF-8">
   <meta name="keywords" content="cv, js, rsschool">
@@ -22,25 +12,11 @@
   <title>CV Julia Lepner</title>
 </head>
 
-<!-- header Вводная часть страницы, «шапка», вводная часть, в которой могут содержаться заголовки, оглавление и т.д. -->
-
-
-<!-- Тег <div> обычно используется для группировки крупных элементов, например, нескольких абзацев, или в качестве контейнера для 
-  создания сеток страниц. А <span> используется для выделения мелких текстовых элементов: частей слов, отдельных слов или фраз, 
-  состоящих из нескольких слов: -->
-
-
-
 <body>
   <header>
-    <!--   nav Для создания логического раздела с основной навигацией. Обычно в <nav> включают ссылки на другие страницы или 
-      навигацию по текущей странице.  -->
-    <ul class="menu-nav">
+    <ul class="nav-menu">
       <li>
         <a href="#skills">Technical Skills</a>
-      </li>
-      <li>
-        <a href="#code">Code example</a>
       </li>
       <li>
         <a href="#experience">Experience</a>
@@ -55,35 +31,17 @@
         <a href="#projects">My projects</a>
       </li>
       <li>
+        <a href="#code">Code example</a>
+      </li>
+      <li>
         <a href="#video">Self-introduction</a>
       </li>
-
     </ul>
 
-    <!-- <nav>To home page</nav> -->
   </header>
   <div class="main-container">
-    <!--   article цельный, законченный и самостоятельный фрагмент информации. В отличие от <section>, 
-    его можно вырвать из одного места и вставить в другое (на другую страницу сайта или на другой сайт), 
-    и смысл содержимого тега при этом не потеряется. Примеры: статья, пост в блоге, сообщение на форуме и так далее. -->
-
-    <article> </article>
-    <!-- aside включает в себя дополнительное содержание, не связанное напрямую с основным. Такие блоки ещё часто называют «сайдбарами» 
-    или боковыми панелями. -->
-
-    <!-- <aside>Здесь могла быть ваша реклама</aside> -->
-
-    <!-- main выделяет основное содержание страницы, которое не повторяется на других страницах. Спецификация не допускает 
-    использование на одной странице более одного тега <main>, если у них нет специального атрибута hidden. Атрибут hidden 
-    указывает браузеру, что элемент не должен отображаться и использоваться в момент, когда отображается и используется 
-    содержимое другого <main>.-->
-
 
     <main id="main">
-      <!-- <figcaption id="img-caption">
-        </figcaption> -->
-      <!-- section крупный смысловой (или «логический») раздел. Как понять, что раздел смысловой? Если вы можете дать ему имя, 
-      описывающее его содержание или назначение, то это точно он. -->
       <section class="info-box">
         <div class="info-box-small">
           <img class="avatar" src="my_photo2.png" alt="My photo">
@@ -118,28 +76,8 @@
         </ul>
       </section>
 
-      <section id="code">
-        <h3>Code example</h3>
-        <pre>
-                  <code>
-                    function sDigit(n: number) {
-                      if (n < 10) return n;
-                      else {
-                        return n % 10 + sDigit(Math.floor(n / 10));
-                      }
-                    }
-                  </code>
-          </pre>
-      </section>
-
-      <section id="projects"><a id="projects"></a>
-        <h3>My projects</h3>
-        <ul class="text-list">
-          <li>NASA</li>
-        </ul>
-      </section>
-
-      <section id="experience"><a id="experience"></a>
+      <section id="experience">
+        <a id="experience"></a>
         <h3>Experience</h3>
         <ul class="text-list">
           <p><strong>2019 – now</strong> Programming Studying</p>
@@ -150,7 +88,6 @@
               <dd>- Responsive Web Design Certification (300 hours);</dd>
               <dd>- JavaScript Algorithm and Data Structures Certification (300 hours);</dd>
             </li>
-
           </dl>
 
           <li>
@@ -173,12 +110,14 @@
         </ul>
       </section>
 
-      <section id="education"><a id="education"></a>
+      <section id="education">
+        <a id="education"></a>
         <h3>Education</h3>
         <p>M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia</p>
       </section>
 
-      <section id="languages"><a id="languages"></a>
+      <section id="languages">
+        <a id="languages"></a>
         <h3>Languages</h3>
         <ul class="text-list">
           <li>Russian</li>
@@ -187,19 +126,50 @@
         </ul>
       </section>
 
-      <section id="video"><a id="video"></a>
-        <h3>Self-introduction</h3>
-        <video id="video" width="320" height="240" controls>
-          <source src="" type="">
-        </video>
+      <section id="projects"><a id="projects"></a>
+        <h3>My projects</h3>
+        <ul class="img-list">
+          <li>
+            <figure>
+              <a href="https://codepen.io/julia-lepner/full/vYmLwda" target="blank">
+                <img class="img-projects" src="img_proj_1.png" alt="Vaccination form"></a>
+              <figcaption style="font-size: 12px">My the very first html/css project "Survey Form"</figcaption>
+              </a>
+            </figure>
+          </li>
+          </figure>
+
+        </ul>
       </section>
 
+      <section id="code">
+        <h3>Code example</h3>
+        <pre>
+<code>
+function sDigit(n: number) {
+  if (n < 10) return n;
+  else {
+    return n % 10 + sDigit(Math.floor(n / 10));
+  }
+}
+</code>
+  </pre>
+      </section>
 
+      <section id="video">
+        <a id="video"></a>
+        <h3>Self-introduction</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IMOqlSHA47U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </section>
 
     </main>
 
     <footer>
-      <ul class="menu-nav">
+      <ul class="nav-menu">
         <li style="color: black; font-weight: 900">2021</li>
         <li> <a href="https://github.com/ylepner"> <img class="logo" src="GitHub-Mark-64px.png" alt="Github logo"> </a>
         </li>
