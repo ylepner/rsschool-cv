@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -63,6 +64,7 @@ ul.text-list {
 .text-list > li{
   margin: 16px 0;
 }
+
 
 header {
   width: 100%;
@@ -141,3 +143,4 @@ ul.img-list {
   filter: unset;
   transform: scale(1.05);
 }
+
