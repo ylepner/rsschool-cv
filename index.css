@@ -1,0 +1,143 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-container {
+  max-width: 900px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #eee;
+}
+
+#main {
+  border-radius: 5px;
+  background: #eee;
+}
+
+.avatar {
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul.text-list {
+  max-width: 550px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-list > li{
+  margin: 16px 0;
+}
+
+header {
+  width: 100%;
+  background-color: #1b271de3
+}
+
+.nav-menu {
+  align-items: center;
+  padding: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-menu>li{
+  padding: 10px;
+  
+}
+
+.text-info {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+  border-top: 1px solid  #beb2b3;
+  border-bottom: 1px solid #beb2b3;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-indent: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: /* #beb2b3; */ #eeeeee;
+  display: inline-block;
+}
+
+.link-about {
+  color: #1b271de3;
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  height: 30px;
+}
+
+pre {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding: 0;
+  max-width: 550px;
+}
+
+ul.img-list {
+  list-style: none;
+}
+
+.a-img-list{
+  height: 50px;
+}
+
+.img-projects {
+  filter: contrast(0.5);
+  width: 300px;
+  transition: ease 0.5s;
+}
+
+.img-projects:hover {
+  filter: unset;
+  transform: scale(1.05);
+}
