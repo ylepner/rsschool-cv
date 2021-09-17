@@ -60,3 +60,9 @@ M. S. Civil law - Novosibirsk State University, Novosibirsk, Russia
 * Russian
 * Polish(B1)
 * English(B1) - regular weekly practice with the native speaker
+
+
+## Self-introduction
+
+
+[![My video](screenshot.png)](https://www.youtube.com/embed/IMOqlSHA47U "Self-introduction")
