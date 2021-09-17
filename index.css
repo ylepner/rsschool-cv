@@ -123,6 +123,7 @@ pre {
   text-align: justify;
   padding: 0;
   max-width: 550px;
+  overflow: auto;
 }
 
 ul.img-list {
@@ -144,3 +145,21 @@ ul.img-list {
   transform: scale(1.05);
 }
 
+code{
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+@media (max-width: 320px) {
+  code {
+    width: 300px;
+  }
+  iframe {
+    width: 200px;
+  }
+}
+
+figure{
+  margin: 0;
+}
