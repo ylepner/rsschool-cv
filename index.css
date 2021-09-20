@@ -64,6 +64,7 @@ ul.text-list {
 
 .text-list > li{
   margin: 16px 0;
+  list-style: none;
 }
 
 
