@@ -28,6 +28,7 @@ body {
 
 .main-container {
   max-width: 900px;
+  padding: 40px 0;
 }
 
 h1 {
@@ -64,7 +65,18 @@ ul.text-list {
   margin-right: auto;
 }
 
-.text-list > li{
+.skills {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.skills li {
+  padding: 0px 10px;
+}
+
+.text-list li{
   margin: 16px 0;
 }
 
@@ -138,10 +150,10 @@ ul.img-list {
 }
 
 .img-projects {
-  filter: contrast(0.5);
   transition: ease 0.5s;
-  max-width: 300px;
-  width: 100%;
+  width: 200px;
+  height: 140px;
+  border-radius: 10px;
 }
 
 .img-projects:hover {
@@ -182,6 +194,29 @@ code{
 }
 
 figure{
-  margin-left: auto;
-  margin-right: auto;
+margin: 0;
+}
+
+.projects-container {
+  display: grid;
+  justify-content: space-around;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.languages {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.languages li {
+  padding: 0 20px;
+  margin: 0;
+}
+
+h3 {
+  padding: 20px 0;
 }

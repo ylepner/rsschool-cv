@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header>
+  <!-- <header>
     <nav>
       <ul class="nav-menu">
         <li>
@@ -29,18 +29,13 @@
           <a href="#languages">Languages</a>
         </li>
         <li>
-          <a href="#projects">My project</a>
-        </li>
-        <li>
-          <a href="#code">Code example</a>
-        </li>
-        <li>
-          <a href="#video">Self-introduction</a>
+          <a href="#my-projects">My projects</a>
         </li>
       </ul>
     </nav>
 
-  </header>
+  </header> -->
+
   <div class="main-container">
 
     <main id="main">
@@ -50,19 +45,19 @@
         </div>
         <div class="info-box-big">
           <h1>Julia Lepner</h1>
-          <h4>Javascript / Frontend Student</h4>
+          <h4>Junior Front-End Developer</h4>
           <ul class="link-about">
             <li><a class="link-about" href="https://goo.gl/maps/D4TUmr1E2uVgsnAv9" target="blank">Gdańsk, Poland</a>
             </li>
-            <li><a class="link-about" href="mailto:ylepner@gmail.com">Email</a></li>
+            <li><a class="link-about" href="mailto:ylepner@gmail.com">ylepner@gmail.com</a></li>
             <li><a class="link-about" href="https://github.com/ylepner" target="blank">GitHub</a></li>
           </ul>
         </div>
       </section>
 
       <div class="text-info">
-        <p>Self-taught Front-end developer with the main goal of starting my career
-          and get a junior position job next year. My career-switch experience
+        <p>Front-end developer with the main goal of starting my career
+          and get a junior position job this year. My career-switch experience
           has taught me realize how to learn and apply new paradigms quickly and
           efficiently. It has also allowed me to develop a flexible approach
           to work and life.</p>
@@ -70,12 +65,14 @@
 
       <section>
         <h3><a id="skills"></a>Technical Skills</h3>
-        <ul class="text-list">
+        <ul class="text-list skills">
           <li>Git</li>
-          <li>HTML, CSS</li>
-          <li>Python basic</li>
-          <li>JavaScript, TypeScript in process</li>
-          <li>Editors: Brackets, VSCode, PyCharm</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Angular</li>
+          <li>Figma</li>
         </ul>
       </section>
 
@@ -83,9 +80,15 @@
         <a id="experience"></a>
         <h3>Experience</h3>
         <ul class="text-list">
-          <li><strong>2019 – now</strong> Programming Studying
+          <li><strong>Programming Studying (2019 – now) </strong>
             <ul>
-              <li>Rolling Scopes School: JavaScript/Front-end course <em>in process;</em></li>
+              <li>Bit Project, Serverless Camp 2022 <em>in process;</em></li>
+              <li>Rolling Scopes School:
+                <ul>
+                  <li>Angular 2022Q1 (position in score: 9)</li>
+                  <li>JavaScript/Front-end course 2021Q3 (position in score: 139)</li>
+                </ul>
+              </li>
               <li>FreeCodeCamp:
                 <ul>
                   <li>Responsive Web Design Certification (300 hours);</li>
@@ -107,9 +110,9 @@
             </ul>
           </li>
 
-          <li><strong>Aug 2016 – Jan 2019</strong> Yoga Studio Owner, Gdańsk, Poland</li>
+          <li><strong>Yoga Studio Owner (Aug 2016 – Jan 2019)</strong> Gdańsk, Poland </li>
 
-          <li><strong>Sep 2010 – Feb 2016</strong> Legal adviser, Civil Law, Representative of a court-appointed
+          <li><strong>Legal adviser (Sep 2010 – Feb 2016)</strong> Civil Law, Representative of a court-appointed
             receiver in legal entities’ bankruptcy cases, Novosibirsk, Russia</li>
         </ul>
       </section>
@@ -123,23 +126,50 @@
       <section>
         <a id="languages"></a>
         <h3>Languages</h3>
-        <ul class="text-list">
+        <ul class="text-list languages">
           <li>Russian</li>
-          <li>Polish(B1)</li>
-          <li>English(B1) - regular weekly practice with native speaker</li>
+          <li>Polish (B2)</li>
+          <li>English (B1+)</li>
         </ul>
       </section>
 
-      <section><a id="projects"></a>
-        <h3>My project</h3>
-        <figure class="img-project">
-          <a href="https://codepen.io/julia-lepner/full/vYmLwda" target="blank">
-            <img class="img-projects" src="img_proj_1.png" alt="Vaccination form"></a>
-          <figcaption style="font-size: 12px">My the very first html/css project "Vaccination Survey Form"</figcaption>
-        </figure>
+      <section><a id="my-projects"></a>
+        <h3>My projects</h3>
+        <ul class="projects-container">
+          <li class="img-project">
+            <a href="https://rolling-scopes-school.github.io/ylepner-JSFE2021Q3/momentum/" target="blank">
+              <img class="img-projects" src="./img/momentum.png" alt="Momentum"></a>
+            <figcaption>Momentum</figcaption>
+          </li>
+          <li class="img-project">
+            <a href="https://rolling-scopes-school.github.io/ylepner-JSFE2021Q3/museum-dom/" target="blank">
+              <img class="img-projects" src="./img/museum.png" alt="Museum"></a>
+            <figcaption>Museum</figcaption>
+          </li>
+          <li class="img-project">
+            <a href="https://ylepner-migration-newip-to-ts.netlify.app/" target="blank">
+              <img class="img-projects" src="./img/newip.png" alt="Newip"></a>
+            <figcaption>Migration Newip To Ts</figcaption>
+          </li>
+          <li class="img-project">
+            <a href="https://ylepner-christmas-task.netlify.app/" target="blank">
+              <img class="img-projects" src="./img/christmas-task.png" alt="Christmas-task"></a>
+            <figcaption>Christmas task</figcaption>
+          </li>
+          <li class="img-project">
+            <a href="https://rslang-20.netlify.app/" target="blank">
+              <img class="img-projects" src="./img/rs-lang.png" alt="Rs lang"></a>
+            <figcaption>Rs Lang (Team Project)</figcaption>
+          </li>
+          <li class="img-project">
+            <a href="https://project-management-team7.netlify.app/" target="blank">
+              <img class="img-projects" src="./img/boardy.png" alt="Boardy"></a>
+            <figcaption>Boardy (Team Project)</figcaption>
+          </li>
+        </ul>
       </section>
 
-      <section class="code"><a id="code"></a>
+      <!-- <section class="code"><a id="code"></a>
         <h3>Code example</h3>
         <pre>
 <code>
@@ -151,30 +181,30 @@ function sDigit(n: number) {
 }
 </code>
   </pre>
-      </section>
+      </section> -->
 
-      <section>
+      <!-- <section>
         <a id="video"></a>
         <h3>Self-introduction</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IMOqlSHA47U" title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
-      </section>
+      </section> -->
 
     </main>
 
-    <footer>
-      <ul class="nav-menu">
-        <li style="color: black; font-weight: 900">2021</li>
-        <li> <a href="https://github.com/ylepner" target="blank"><img class="logo" src="GitHub-Mark-64px.png"
-              alt="Github logo"></a>
-        </li>
-        <li><a href="https://rs.school/js/" target="blank"><img class="logo"
-              src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School logo"></a></li>
-      </ul>
-    </footer>
+
   </div>
+
+  <!-- <footer>
+    <ul class="nav-menu footer">
+      <li> <a href="https://github.com/ylepner" target="blank"><img class="logo" src="GitHub-Mark-64px.png"
+            alt="Github logo"></a>
+      </li>
+      <li style="color: black; font-weight: 900">2022</li>
+    </ul>
+  </footer> -->
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/ascetic.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
